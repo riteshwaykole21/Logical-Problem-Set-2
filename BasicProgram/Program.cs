@@ -13,6 +13,7 @@ namespace BasicProgram
             Console.WriteLine("1 : Enter Your Age");
             Console.WriteLine("2 : Enter A Number");
             Console.WriteLine("3 : Enter The Number");
+            Console.WriteLine("4 : Conversion Kelvin");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -28,6 +29,10 @@ namespace BasicProgram
                 case 3:
                     Reactangle reactangle = new Reactangle();
                     reactangle.Number();
+                    break;
+                case 4:
+                    Kelvin kelvin = new Kelvin();
+                    kelvin.Number();
                     break;
             }
             Console.ReadLine();
