@@ -12,6 +12,7 @@ namespace BasicProgram
         {
             Console.WriteLine("1 : Enter Your Age");
             Console.WriteLine("2 : Enter A Number");
+            Console.WriteLine("3 : Enter The Number");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -23,6 +24,10 @@ namespace BasicProgram
                 case 2:
                     NoSepration noSepration = new NoSepration();
                     noSepration.Number();   
+                    break;
+                case 3:
+                    Reactangle reactangle = new Reactangle();
+                    reactangle.Number();
                     break;
             }
             Console.ReadLine();
