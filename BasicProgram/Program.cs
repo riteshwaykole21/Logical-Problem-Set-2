@@ -16,6 +16,7 @@ namespace BasicProgram
             Console.WriteLine("4 : Conversion Kelvin");
             Console.WriteLine("5 : Remove Specific Character");
             Console.WriteLine("6 : Change Position Of Char");
+            Console.WriteLine("7 : First Char Of String Add Front And Back Also");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -43,6 +44,10 @@ namespace BasicProgram
                 case 6:
                     ChangePosition changePosition = new ChangePosition();
                     changePosition.Number();
+                    break;
+                case 7:
+                    FrontandBack frontandBack = new FrontandBack();
+                    frontandBack.Number();  
                     break;
             }
             Console.ReadLine();
