@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Age.cs" />
+    <Compile Include="IndexOfChar.cs" />
     <Compile Include="Kelvin.cs" />
     <Compile Include="NoSepration.cs" />
     <Compile Include="Program.cs" />
