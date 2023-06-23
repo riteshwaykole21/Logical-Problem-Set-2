@@ -15,6 +15,7 @@ namespace BasicProgram
             Console.WriteLine("3 : Enter The Number");
             Console.WriteLine("4 : Conversion Kelvin");
             Console.WriteLine("5 : Remove Specific Character");
+            Console.WriteLine("6 : Change Position Of Char");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -38,6 +39,10 @@ namespace BasicProgram
                 case 5:
                     IndexOfChar ch = new IndexOfChar();
                     ch.Number();
+                    break;
+                case 6:
+                    ChangePosition changePosition = new ChangePosition();
+                    changePosition.Number();
                     break;
             }
             Console.ReadLine();
