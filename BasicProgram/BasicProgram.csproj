@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Age.cs" />
     <Compile Include="ChangePosition.cs" />
+    <Compile Include="ComputeSum.cs" />
     <Compile Include="FrontandBack.cs" />
     <Compile Include="IndexOfChar.cs" />
     <Compile Include="IntegerPair.cs" />
