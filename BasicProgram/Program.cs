@@ -17,6 +17,7 @@ namespace BasicProgram
             Console.WriteLine("5 : Remove Specific Character");
             Console.WriteLine("6 : Change Position Of Char");
             Console.WriteLine("7 : First Char Of String Add Front And Back Also");
+            Console.WriteLine("8 : Check Condition Of If Else");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -48,6 +49,10 @@ namespace BasicProgram
                 case 7:
                     FrontandBack frontandBack = new FrontandBack();
                     frontandBack.Number();  
+                    break;
+                case 8:
+                    IntegerPair integerPair = new IntegerPair();
+                    integerPair.Number();   
                     break;
             }
             Console.ReadLine();

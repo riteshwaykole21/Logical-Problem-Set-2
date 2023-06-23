@@ -47,6 +47,7 @@
     <Compile Include="ChangePosition.cs" />
     <Compile Include="FrontandBack.cs" />
     <Compile Include="IndexOfChar.cs" />
+    <Compile Include="IntegerPair.cs" />
     <Compile Include="Kelvin.cs" />
     <Compile Include="NoSepration.cs" />
     <Compile Include="Program.cs" />
