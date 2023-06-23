@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbsoluteValue.cs" />
     <Compile Include="Age.cs" />
     <Compile Include="ChangePosition.cs" />
     <Compile Include="ComputeSum.cs" />

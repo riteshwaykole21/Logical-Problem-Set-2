@@ -19,6 +19,7 @@ namespace BasicProgram
             Console.WriteLine("7 : First Char Of String Add Front And Back Also");
             Console.WriteLine("8 : Check Condition Of If Else");
             Console.WriteLine("9 : Triple Their Sum");
+            Console.WriteLine("10 : Absolute Value Of The Number");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -58,6 +59,10 @@ namespace BasicProgram
                 case 9:
                     ComputeSum computeSum = new ComputeSum();   
                     computeSum.Number();
+                    break;
+                case 10:
+                    AbsoluteValue absoluteValue = new AbsoluteValue();
+                    absoluteValue.Number();
                     break;
             }
             Console.ReadLine();
