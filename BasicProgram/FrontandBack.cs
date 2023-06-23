@@ -15,6 +15,7 @@ namespace BasicProgram
             string A = Name.Substring(0,1);
             string B = Name.Substring(1,Name.Length - 1);
             Console.WriteLine(A+A+B+A);
+
         }
     }
 }
